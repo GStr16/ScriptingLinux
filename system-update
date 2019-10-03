@@ -1,11 +1,7 @@
-#! /bin/bash
+# !/bin/bash
 clear
 sudo apt-get update 
 echo "Finish to get the packages"
 echo ""
-sudo apt-get upgrade 
+sudo apt-get dist-upgrade -y 
 echo "Finish to update your system"
-echo ""
-echo "============================================================================"
-echo ""
-echo "Is updated"
