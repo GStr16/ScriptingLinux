@@ -1,7 +1,0 @@
-# !/bin/bash
-clear
-sudo apt-get update 
-echo "Finish to get the packages"
-echo ""
-sudo apt-get dist-upgrade -y 
-echo "Finish to update your system"
