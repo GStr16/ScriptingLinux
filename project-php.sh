@@ -1,3 +1,4 @@
+
 #! /bin/bash
 clear
 echo "Enter your path"
@@ -16,7 +17,7 @@ touch $filename/index.php
 echo "<!DOCTYPE html>
 <html>
 <head>
-	<title>{$filename} project</title>
+	<title>${filename} project</title>
 </head>
 <body>
 
@@ -28,6 +29,12 @@ mkdir $filename/js/
 mkdir $filename/function/
 mkdir $filename/image/
 mkdir $filename/SQL/
+
+touch $filename/SQL/Create.sql
+touch $filename/SQL/Update.sql
+touch $filename/SQL/Delete.sql
+touch $filename/SQL/Insert.sql
+touch $filename/SQL/Drop.sql
 
 chmod 755 $filename
 echo "Permission granted!"
